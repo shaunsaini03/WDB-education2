@@ -1,0 +1,127 @@
+/* Flexxing */
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.splash-page {
+  height: 1000px;
+  width: 1500px;
+  background-color: black;
+  color: white;
+}
+
+.navbar {
+  height: 100px;
+  width: 1500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-button {
+  text-decoration: underline lightblue 3px;
+  font-weight: bold;
+}
+
+.headline {
+  height: 890px;
+  padding-top: 10px;
+  width: 1500px;
+  background-color: white;
+  color: black;
+  display: flex;
+
+  /* if you want to do stuff with more than two elements do it here */
+
+}
+
+.intro {
+  width: 50%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
+}
+
+/* intro stuff */
+
+
+.hobbies {
+  width: 50%;
+  background-color: white;
+  color: black;
+  border: black;
+  border-style: solid;
+  border-width: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+
+.portfolio {
+  height: 1000px;
+  width: 1500px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.proj-col {
+  height: 100%;
+  width: 500px;
+  border: 10px solid black;
+  display: flex;
+  justify-content: center;
+
+}
+
+.main-proj {
+  height: 900px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.proj-name {
+  height: 80px;
+  width: 230px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: black solid 5px;
+}
+
+.proj-desc {
+  height: 200px;
+  background-color: black;
+  color: white;
+  width: 300px;
+  padding: 30px
+}
+
